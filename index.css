@@ -1,0 +1,92 @@
+#right-menu{
+  float: right; 
+  color: white; 
+  position: fixed; 
+  right: 1.5em;
+  top: 8em;
+  height: 80vh;
+  overflow: auto;
+  padding: 0px 1.5rem 0px 0px;
+}
+
+#right-menu h1 {
+  font-size: 2.5em;
+  letter-spacing: 0;
+  line-height: 1.125em;
+  margin-bottom: 0.65em;
+}
+
+#right-menu h1+ul ul li {
+  padding-left: 1.5em;
+}
+
+#right-menu h1+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#right-menu h1+ul li {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+#right-menu h1+ul li a {
+  color: #232323;
+  font-size: .89em;
+  font-weight: 500;
+  position: relative;
+  text-decoration: none;
+}
+  
+#right-menu h1+ul ul li a {
+  font-weight: 400;
+}
+  
+#right-menu  h1+ul li a:before {
+  color: #eb4432;
+  content: "# ";
+}
+
+.dark #right-menu h1+ul li a {
+  --tw-text-opacity: 1;
+  color: rgb(215 215 220/var(--tw-text-opacity));
+}
+
+.dark #right-menu :not(pre)>code, pre {
+  background-color: rgb(37 42 55/var(--tw-bg-opacity));
+}
+
+.dark #right-menu :not(pre)>code {
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  color: rgb(235 68 50/var(--tw-text-opacity));
+}
+
+#right-menu :not(pre)>code {
+  border-radius: 0.125rem;
+  display: inline-flex;
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 0 0.125rem;
+  vertical-align: middle;
+}
+
+#right-menu :not(pre)>code {
+  background: #fbfbfd;
+  color: #ca473f;
+  padding: 0 0.25em;
+}
+
+#right-menu code {
+  color: #232323;
+  font-size: .8rem;
+  font-weight: 500;
+  line-height: 1.9;
+}
+
+#right-menu code {
+  font-family: source-code-pro,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+  font-size: .875em;
+  line-height: 1.714em;
+}
